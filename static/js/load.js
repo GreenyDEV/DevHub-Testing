@@ -1,0 +1,1 @@
+const encUrl = xor.encode(localStorage.getItem("url"))
