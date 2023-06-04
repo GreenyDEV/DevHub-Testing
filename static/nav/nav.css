@@ -1,0 +1,36 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vh;
+}
+
+.navbar > .title > img {
+  width: 55px;
+  border-radius: 10px;
+}
+
+.navbar > .title > span {
+  font-family: 'Lato-Black';
+  font-size: 30px;
+  margin-left: 13px;
+  position: relative;
+  bottom: 2vh;
+}
+
+.navbar > .end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar > .end > a {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  font-size: 3vh;
+  transition: color 0.3s ease-in-out;
+}
