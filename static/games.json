@@ -1,0 +1,28 @@
+[
+    {
+      "name": "1v1.lol",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=40,height=40,fit=cover,f=auto/eee0e57332c4546fc492e8361a48cb32.jpeg",
+      "url": "https://1v1.lol"
+    },
+    {
+      "name": "Game 2",
+      "image": "https://via.placeholder.com/220x220?text=Insert+fun+game",
+      "url": "https://example.com"
+    },
+    {
+      "name": "Game 3",
+      "image": "https://via.placeholder.com/220x220?text=Insert+fun+game",
+      "url": "https://example.com"
+    },
+    {
+      "name": "Game 4",
+      "image": "https://via.placeholder.com/220x220?text=Insert+fun+game",
+      "url": "https://example.com"
+    },
+    {
+      "name": "Game 5",
+      "image": "https://via.placeholder.com/220x220?text=Insert+fun+game",
+      "url": "https://example.com"
+    }
+    
+  ]
