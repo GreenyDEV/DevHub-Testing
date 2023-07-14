@@ -1,0 +1,72 @@
+[
+    {
+      "name": "1v1.lol",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/eee0e57332c4546fc492e8361a48cb32.jpeg",
+      "url": "https://webglmath.github.io/1v1-lol/"
+    },
+    {
+      "name": "Subway Surfers",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Subway_Surfers_app_logo.png",
+      "url": "http://files.ufreegame.net/1024/subway-surfers-jjs/"
+    },
+    {
+      "name": "Stickman Hook",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/99e090d154caf30f3625df7e456d5984.png",
+      "url": "https://resource.doodoo.love/kfokP4/game/stickman-hook/v7/"
+    },
+    {
+      "name": "Slither.io",
+      "image": "https://slitherio.online/upload/imgs/slither-io-game.png",
+      "url": "http://slither.io/"
+    },
+    {
+      "name": "Paper.io",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
+      "url": "https://ubg365.github.io/paper-io-2/"
+    },
+    {
+      "name": "Bitlife",
+      "image": "https://img.gamedistribution.com/2e44fb60fd3f4606b1b06c17a2b9d60d-512x384.jpeg",
+      "url": "https://ubg365.github.io/bitlife-life-simulator/play.html"
+    },
+    {
+      "name": "Pou",
+      "image": "https://img.gamedistribution.com/d1362abc246f43bdb5c26643aec2b61b-512x384.jpeg",
+      "url": "https://html5.gamedistribution.com/d1362abc246f43bdb5c26643aec2b61b/"
+    },
+    {
+      "name": "Geometry Dash",
+      "image": "https://img.gamedistribution.com/9b634d67ddd6407c95effd409b947a76-512x384.jpeg",
+      "url": "https://html5.gamedistribution.com/9b634d67ddd6407c95effd409b947a76/"
+    },
+    {
+      "name": "Solitare", 
+      "image": "https://img.gamedistribution.com/edde194b22754091bab2dec2f1e463f0-512x384.jpeg",
+      "url": "https://html5.gamedistribution.com/edde194b22754091bab2dec2f1e463f0/"
+    },
+    {
+      "name": "Stickman Boost", 
+      "image": "https://play-lh.googleusercontent.com/_SdwVBy4hKFDZnsYPn9QWRPT1PZV7-jBN4WIs1czWxknLGfO6wqsTVYvNw6jTmrM36o=w240-h480-rw",
+      "url": "http://files.ufreegame.net/stickman_boost/"
+    },
+    {
+      "name": "Vex", 
+      "image": "https://ubg365.github.io/thumbs/vex-6.png",
+      "url": "https://ubg365.github.io/vex-7/"
+    },
+    {
+      "name": "Tetris", 
+      "image": "https://ubg365.github.io/thumbs/flash-tetris.png",
+      "url": "https://ubg365.github.io/flash-tetris/"
+    },
+    {
+      "name": "Slope", 
+      "image": "https://ubg365.github.io/thumbs/slope.png",
+      "url": "https://ubg365.github.io/slope/play.html"
+    },
+    {
+      "name": "Crossy Road", 
+      "image": "https://ubg365.github.io/hot-games/thumbs/crossy-road.png",
+      "url": "https://crossy-road--darianalt.repl.co/"
+    }
+  ]
