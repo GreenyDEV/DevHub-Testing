@@ -1,22 +1,20 @@
 import Easyviolet from 'easyviolet';
 import express from 'express';
-import url from 'url';
-import path from 'path';
+import path from 'node:path';
+import url from 'node:url';
 
 const app = express();
 const easyviolet = new Easyviolet();
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
-app.use(express.static(path.join(__dirname, 'static'), { extensions: ['html'] }));
+app.use(easyviolet.express(app));
 
-app.use((req, res, next) => {
-    if (!easyviolet.requiresRoute(req)) res.status(404).sendFile(path.join(__dirname, 'static/404.html'));
-    else next();
+app.use(express.static(path.join(__dirname, './static/'), { extensions: ['html'] }));
+
+app.use(function(req, res, next) {
+  res.status(404).sendFile(path.join(__dirname, 'static', '404.html'));
 });
 
-// STart Server
-
-const server = app.listen(80, () => console.log(`DevHub listening on port ${server.address().port}`));
-
-// Let EasyViolet attach to the server
-easyviolet.httpServer(server);
+const server = app.listen(80, () => {
+  console.log("DevHub is listening to port "+server.address().port);
+});
