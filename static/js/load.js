@@ -55,4 +55,11 @@ if (frame) {
       }
       }
     }
+
+    // reload btn
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("reloadBtn").addEventListener("click", () => {
+        document.getElementById("frame").contentWindow.location.reload();
+      });
+    });
 }
