@@ -1,0 +1,22 @@
+{
+  "name": "devhub",
+  "version": "2A",
+  "description": "DevHub is a highly intuitive proxy hub, meant for reRouting blockers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "run": "node index.js"
+  },
+  "keywords": [],
+  "author": "DarianDev",
+  "license": "ISC",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^1.0.11",
+    "@tomphttp/bare-server-node": "^1.2.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
