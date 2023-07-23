@@ -36,7 +36,7 @@ cd /var/www/devhub
 Next, Just install the main files.
 ```sh
 curl -Lo main.zip https://github.com/justDarian/DevHub/releases/latest/download/DevHub.zip
-tar -xzvf main.zip
+tar -xzvf DevHub.zip
 ```
 
 Now you've setup DevHub!
