@@ -12,7 +12,7 @@ import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 const app = express();
 const server = http.createServer();
 const bare = createBareServer('/bare/');
-const port = process.argv[2] || 80;
+const port = process.argv[2] || 8080;
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 // display webpage
