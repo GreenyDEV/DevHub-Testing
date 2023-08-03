@@ -1,5 +1,5 @@
 # DevHub
-DevHub is a proxy hub, mostly meant to be a fast one stop shop for a high speed proxy, using [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) and much more!
+DevHub is a proxy hub, mostly meant to be a fast one stop shop for a high speed proxy and tons of games. All of this was possible because of  [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)!
 
 _Live Website: https://devhub.dariandev.com/_
 
