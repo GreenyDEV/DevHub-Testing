@@ -4,7 +4,7 @@ DevHub is a proxy hub, mostly meant to be a fast one stop shop for a high speed 
 _Live Website: https://devhub.dariandev.com/_
 
 # How does it work?
-Using [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) and a Private VPS. You can get top speeds and a game hub, right at your fingertips.
+Using [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), you can proxy sites through a [Bare Server](https://github.com/tomphttp/bare-server-node). Most of DevHub is frontend, the only part of backend is the TOMPHTTP Bare Server.
 
 # Dependencies
 These are the dependencies you will need, This includes **[Node.js](https://nodejs.org/), [NPM](https://www.npmjs.com/), And [Git](https://git-scm.com/).**
