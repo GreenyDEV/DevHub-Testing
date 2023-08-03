@@ -29,14 +29,15 @@ sudo apt install git-all
 
 # DevHub Installation
 First, We need to create a folder. The location doesn't matter, This is just the default location.
-```sh
-mkdir -p /var/www/devhub
-cd /var/www/devhub
-```
 Next, Just install the main files.
 ```sh
 curl -Lo DevHub.zip https://github.com/justDarian/DevHub/releases/latest/download/DevHub.zip
 tar -xzvf DevHub.zip
+```
+
+You can also install using git, which is suggested
+```sh
+git clone https://github.com/justDarian/DevHub.git
 ```
 
 Now you've setup DevHub!
