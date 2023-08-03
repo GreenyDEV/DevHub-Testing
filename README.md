@@ -44,9 +44,7 @@ Now you've setup DevHub!
 Run ```node.js index.js``` or ```npm start``` to start DevHub. You may modify the port in ``index.js`` 
 
 # Support
-You may get support by joining our discord!
-
-[https://discord.gg/thedevs](https://discord.gg/thedevs)
+You may get support by joining our [discord](https://dariandev.com/discord)!
 
 # Credits
 [Darian](https://github.com/justDarian)
