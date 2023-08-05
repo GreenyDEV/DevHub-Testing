@@ -5,7 +5,7 @@ import * as url from 'url';
 import * as path from 'node:path';
 
 //Import proxy packages
-import createBareServer from '@tomphttp/bare-server-node';
+import { createBareServer } from '@tomphttp/bare-server-node';
 import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 
 // Variables
