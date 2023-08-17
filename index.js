@@ -3,10 +3,7 @@ import http from 'node:http';
 import express from 'express';
 import * as url from 'url';
 import * as path from 'node:path';
-
-//Import proxy packages
 import { createBareServer } from '@tomphttp/bare-server-node';
-import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 
 // Variables
 const app = express();
@@ -17,12 +14,10 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 // display webpage
 app.use(express.static(path.join(__dirname, '/static'), { extensions: ['html'] }));
-// include ultraviolet scripts (autoupdate)
-app.use('/uv/', express.static(uvPath));
 // 404 handler
 app.use((req, res) => res.status(404).sendFile(path.join(__dirname, './static/', '404.html')));
 
-// the following is checking if bare should handle the request or not
+// the following is bare stuff (dw i dont know what this does either)
 server.on('request', (req, res) => {
     if (bare.shouldRoute(req)) {
         bare.routeRequest(req, res);
