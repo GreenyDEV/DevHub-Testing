@@ -10,7 +10,7 @@ function registerSW() {
     alert("Your browser doesn't support service workers. Therefore, DevHub will NOT work.");
   }
 
-  navigator.serviceWorker.register("/dyn/sw.js", {
+  navigator.serviceWorker.register("/sw.js", {
     scope: __dynamic$config.prefix,
   })};
 
